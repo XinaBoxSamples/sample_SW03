@@ -19,9 +19,9 @@
 */
 /**************************************************************************/
 
-#include <xCore.h>
-#include <Adafruit_MPL3115A2.h>
-#include <xOD01.h>
+#include <xCore.h> //include the core library @ https://github.com/xinabox/xCore
+#include <Adafruit_MPL3115A2.h> //include the Adafruit library @ https://github.com/adafruit/Adafruit_MPL3115A2_Library
+#include <xOD01.h> //include the sensor library @ https://github.com/xinabox/xOD01
 
 // Power by connecting Vin to 3-5V, GND to GND
 // Uses I2C - connect SCL to the SCL pin, SDA to SDA pin
